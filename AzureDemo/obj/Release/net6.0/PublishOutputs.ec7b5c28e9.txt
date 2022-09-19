@@ -1,0 +1,13 @@
+C:\Users\dvenkitasam2\POC\GIT\azure-demo\AzureDemo\obj\Release\net6.0\PubTmp\Out\AzureDemo.exe
+C:\Users\dvenkitasam2\POC\GIT\azure-demo\AzureDemo\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\dvenkitasam2\POC\GIT\azure-demo\AzureDemo\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\dvenkitasam2\POC\GIT\azure-demo\AzureDemo\obj\Release\net6.0\PubTmp\Out\AzureDemo.dll
+C:\Users\dvenkitasam2\POC\GIT\azure-demo\AzureDemo\obj\Release\net6.0\PubTmp\Out\AzureDemo.deps.json
+C:\Users\dvenkitasam2\POC\GIT\azure-demo\AzureDemo\obj\Release\net6.0\PubTmp\Out\AzureDemo.runtimeconfig.json
+C:\Users\dvenkitasam2\POC\GIT\azure-demo\AzureDemo\obj\Release\net6.0\PubTmp\Out\AzureDemo.pdb
+C:\Users\dvenkitasam2\POC\GIT\azure-demo\AzureDemo\obj\Release\net6.0\PubTmp\Out\Microsoft.Azure.NotificationHubs.dll
+C:\Users\dvenkitasam2\POC\GIT\azure-demo\AzureDemo\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\dvenkitasam2\POC\GIT\azure-demo\AzureDemo\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\dvenkitasam2\POC\GIT\azure-demo\AzureDemo\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\dvenkitasam2\POC\GIT\azure-demo\AzureDemo\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\dvenkitasam2\POC\GIT\azure-demo\AzureDemo\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

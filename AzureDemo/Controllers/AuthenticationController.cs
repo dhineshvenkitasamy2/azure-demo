@@ -3,6 +3,7 @@ using AzureDemo.Services;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System.Collections.Generic;
 
 namespace AzureDemo.Controllers
 {
@@ -21,12 +22,15 @@ namespace AzureDemo.Controllers
         [HttpPost]
         public string Authentication([FromBody] User user)
         {
+            User userModel = new User();
+            List<User> users = new List<User>();
+            users = userModel.AddUsers();
             string encodedData = String.Empty;
             //return user.EmailId;
             if ((!string.IsNullOrEmpty(user.EmailId)) && !string.IsNullOrEmpty(user.Password))
             {
-
-                if ((user.EmailId == "subha@gmail.com") && (user.Password == "Hello"))
+                var authenticatedUser = users.Find((user1 => user1.EmailId == user.EmailId && user1.Password == user.Password));
+                if (authenticatedUser!=null)
                 {
                     var data = JsonConvert.SerializeObject(user);
 
