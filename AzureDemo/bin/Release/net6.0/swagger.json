@@ -39,49 +39,219 @@
         }
       }
     },
-    "/Authentication/IsValidUser": {
-      "post": {
+    "/Authentication/GetUserId": {
+      "get": {
         "tags": [
           "Authentication"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "id",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Authentication/GetUser": {
+      "get": {
+        "tags": [
+          "Authentication"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "userId",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/notifications/register": {
+      "get": {
+        "tags": [
+          "PushNotifications"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/notifications/unregister/{registrationId}": {
+      "delete": {
+        "tags": [
+          "PushNotifications"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "registrationId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/notifications/enable/{id}": {
+      "put": {
+        "tags": [
+          "PushNotifications"
         ],
         "consumes": [
           "application/json",
           "text/json",
           "application/*+json"
         ],
-        "produces": [
-          "text/plain",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/DeviceRegistration"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/notifications/send": {
+      "post": {
+        "tags": [
+          "PushNotifications"
+        ],
+        "consumes": [
           "application/json",
-          "text/json"
+          "text/json",
+          "application/*+json"
         ],
         "parameters": [
           {
             "in": "body",
             "name": "body",
             "schema": {
-              "type": "string"
+              "$ref": "#/definitions/Notification"
             }
           }
         ],
         "responses": {
           "200": {
-            "description": "Success",
-            "schema": {
-              "type": "boolean"
-            }
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/notifications/getPushNotificationByUser": {
+      "get": {
+        "tags": [
+          "PushNotifications"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "userId",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/notifications/getAllPushNotification": {
+      "get": {
+        "tags": [
+          "PushNotifications"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
           }
         }
       }
     }
   },
   "definitions": {
+    "DeviceRegistration": {
+      "type": "object",
+      "properties": {
+        "platform": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "handle": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "Notification": {
+      "type": "object",
+      "properties": {
+        "platform": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "handle": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "content": {
+          "type": "string"
+        }
+      }
+    },
     "User": {
       "type": "object",
       "properties": {
         "emailId": {
           "type": "string"
         },
+        "name": {
+          "type": "string"
+        },
         "password": {
+          "type": "string"
+        },
+        "userId": {
           "type": "string"
         }
       }

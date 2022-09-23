@@ -1,5 +1,6 @@
 ﻿using AzureDemo.Models;
 using AzureDemo.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -7,6 +8,7 @@ using System.Collections.Generic;
 
 namespace AzureDemo.Controllers
 {
+    [EnableCors]
     [ApiController]
     [Route("[controller]")]
     public class AuthenticationController : Controller
@@ -32,7 +34,7 @@ namespace AzureDemo.Controllers
                 var authenticatedUser = users.Find((user1 => user1.EmailId == user.EmailId && user1.Password == user.Password));
                 if (authenticatedUser!=null)
                 {
-                    var data = JsonConvert.SerializeObject(user);
+                    var data = JsonConvert.SerializeObject(authenticatedUser);
 
                     return EncodedAndDecodedService.Base64Encode(data);
                 }
@@ -48,31 +50,41 @@ namespace AzureDemo.Controllers
 
         }
 
-        [EnableCors]
-        [HttpPost("IsValidUser")]
-
-        public bool IsvalidUser([FromBody] string user)
+        [AllowAnonymous]
+        [HttpGet("GetUserId")]
+        public dynamic getUserId([FromQuery] string id)
         {
-
-            bool isValidUser = false;
-            var decodedResult = EncodedAndDecodedService.Base64Decode(user);
+            var decodedResult = EncodedAndDecodedService.Base64Decode(id);
 
 
             if (decodedResult != null)
             {
                 var result = JsonConvert.DeserializeObject<User>(decodedResult);
-                if (result != null)
+                if (result != null&&!String.IsNullOrEmpty(result.Name))
                 {
-                    if (((result.EmailId == configuration.GetSection("Email").Value)) && ((result.Password == configuration.GetSection("Password").Value)))
-                    {
-                        isValidUser = true;
-                    }
+                    return result;
+                }
+                else
+                {
+                    return "";
                 }
 
             }
-            return isValidUser;
+            else
+            {
+                return "";
+            }
 
         }
-
+        [AllowAnonymous]
+        [HttpGet("GetUser")]
+        public IActionResult getUser([FromQuery] string userId)
+        {
+            User userModel = new User();
+            List<User> users = new List<User>();
+            users = userModel.AddUsers();
+            var authenticatedUser = users.Find((user1 => user1.UserId==userId));
+            return Ok(authenticatedUser);
+        }
     }
 }

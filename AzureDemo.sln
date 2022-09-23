@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDemo", "AzureDemo\AzureDemo.csproj", "{BD9C290A-8FF5-4C17-9BF5-0242AA257F6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDemo", "AzureDemo\AzureDemo.csproj", "{BD9C290A-8FF5-4C17-9BF5-0242AA257F6D}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "ConnectIndividualDemo", "ConnectIndividualDemo\ConnectIndividualDemo.esproj", "{CC7F7DCC-B99D-4AF8-B47A-8F8C73F52782}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{BD9C290A-8FF5-4C17-9BF5-0242AA257F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD9C290A-8FF5-4C17-9BF5-0242AA257F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD9C290A-8FF5-4C17-9BF5-0242AA257F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC7F7DCC-B99D-4AF8-B47A-8F8C73F52782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7F7DCC-B99D-4AF8-B47A-8F8C73F52782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7F7DCC-B99D-4AF8-B47A-8F8C73F52782}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CC7F7DCC-B99D-4AF8-B47A-8F8C73F52782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7F7DCC-B99D-4AF8-B47A-8F8C73F52782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC7F7DCC-B99D-4AF8-B47A-8F8C73F52782}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,6 +7,6 @@ namespace AzureDemo.NotificationHubs
     {
         public int Platform { get; set; }
         public string Handle { get; set; } = String.Empty;  
-        public string[] Tags { get; set; } = new string[0];
+        public string[]? Tags { get; set; } 
     }
 }
