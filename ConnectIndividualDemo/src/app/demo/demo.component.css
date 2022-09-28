@@ -3,3 +3,43 @@
     max-height:75vh;
     overflow-y:auto;
 }
+
+.desktop-nav-items {
+  max-height: 40px;
+}
+
+.home-link {
+  display: inline-block;
+}
+
+.ci-inline-menu {
+    display:flex;
+  font-size: 20px !important;
+}
+.home-text {
+    display:flex;
+  line-height: 10px !important;
+  text-align: right !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.nfp-white-logo {
+    text-align:left;
+ align-content:flex-start;
+  max-height: 26px;
+}
+.connect-individual-header {
+  background-color: rgb(79, 146, 55);
+  padding: 10px;
+  z-index: 12;
+  width: 100%;
+  position: relative;
+  font-family: 'Open Sans' !important;
+}
+.icon-blue {
+  padding: 12px;
+  color: white;
+}

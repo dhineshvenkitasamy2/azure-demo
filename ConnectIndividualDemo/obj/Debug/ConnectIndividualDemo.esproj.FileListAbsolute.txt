@@ -1,0 +1,2 @@
+C:\Users\sus\POC\azure-demo\ConnectIndividualDemo\obj\Debug\ConnectIndividualDemo.esproj.SuggestedBindingRedirects.cache
+C:\Users\sus\POC\azure-demo\ConnectIndividualDemo\obj\Debug\ConnectIndividualDemo.esproj.CoreCompileInputs.cache
