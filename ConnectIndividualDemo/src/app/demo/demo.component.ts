@@ -11,6 +11,7 @@ import { HttpApiService } from '../http-api.service';
 export class DemoComponent implements OnInit {
   @ViewChild('modal', { static: false }) modal: ElementRef | undefined;
   notifications: any;
+  isBadgeOverlapped: boolean = true;
   id: any = null;//eyJFbWFpbElkIjoiZC52ZW5raXRhc2FteUBuZnAuY29tIiwiTmFtZSI6IkRoaW5lc2ggVmVua2l0YXNhbXkiLCJQYXNzd29yZCI6IkRoaW51QDEyMyIsIlVzZXJJZCI6ImRoaW51MjAwMSJ9
   user: any = {};
   imageUrl: string = "../../assets/Images/CI.PNG";
