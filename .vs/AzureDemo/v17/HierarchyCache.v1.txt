@@ -1,0 +1,232 @@
+﻿++Solution 'AzureDemo' ‎(2 of 2 projects)
+i:{00000000-0000-0000-0000-000000000000}:AzureDemo.sln
+++ConnectIndividualDemo
+i:{00000000-0000-0000-0000-000000000000}:ConnectIndividualDemo
+++npm
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:>2013
+++src
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\
+++app
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\app\
+++demo
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\app\demo\
+++demo.component.css
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\app\demo\demo.component.css
+++demo.component.html
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\app\demo\demo.component.html
+++demo.component.spec.ts
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\app\demo\demo.component.spec.ts
+++demo.component.ts
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\app\demo\demo.component.ts
+++app.component.css
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\app\app.component.css
+++app.component.html
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\app\app.component.html
+++app.component.spec.ts
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\app\app.component.spec.ts
+++app.component.ts
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\app\app.component.ts
+++app.module.ts
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\app\app.module.ts
+++app.routing.module.ts
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\app\app.routing.module.ts
+++http-api.service.spec.ts
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\app\http-api.service.spec.ts
+++http-api.service.ts
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\app\http-api.service.ts
+++assets
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\assets\
+++environments
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\environments\
+++favicon.ico
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\favicon.ico
+++index.html
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\index.html
+++main.ts
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\main.ts
+++polyfills.ts
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\polyfills.ts
+++styles.css
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\styles.css
+++test.ts
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\test.ts
+++.browserslistrc
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\.browserslistrc
+++.editorconfig
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\.editorconfig
+++.gitignore
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\.gitignore
+++angular.json
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\angular.json
+++karma.conf.js
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\karma.conf.js
+++nuget.config
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\nuget.config
+++package.json
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\package.json
+++package-lock.json
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\package-lock.json
+++README.md
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\readme.md
+++tsconfig.app.json
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\tsconfig.app.json
+++tsconfig.spec.json
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\tsconfig.spec.json
+++.gitkeep
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\assets\.gitkeep
+++routes.json
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\assets\routes.json
+++environment.prod.ts
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\environments\environment.prod.ts
+++environment.ts
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\environments\environment.ts
+++AzureDemo
+i:{00000000-0000-0000-0000-000000000000}:AzureDemo
+++Connected Services 
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:>1919
+++Dependencies
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:>1918
+++Properties
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\properties\
+++Controllers
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\controllers\
+++Migrations
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\migrations\
+++Models
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\models\
+++NotificationHubs
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\notificationhubs\
+++Services
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\services\
+++appsettings.json
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\appsettings.json
+++Program.cs
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\program.cs
+++WeatherForecast.cs
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\weatherforecast.cs
+++Azure API Management
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:>2047
+++Analyzers
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:analyzers
+++Frameworks
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:frameworks
+++Packages
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:packages
+++PublishProfiles
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\properties\publishprofiles\
+++ServiceDependencies
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\properties\servicedependencies\
+++launchSettings.json
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\properties\launchsettings.json
+++serviceDependencies.json
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\properties\servicedependencies.json
+++AuthenticationController.cs
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\controllers\authenticationcontroller.cs
+++NotificationModelsController.cs
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\controllers\notificationmodelscontroller.cs
+++PushNotificationsController.cs
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\controllers\pushnotificationscontroller.cs
+++20220922073248_initial.cs
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\migrations\20220922073248_initial.cs
+++ConnectIndividualDemoContextModelSnapshot.cs
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\migrations\connectindividualdemocontextmodelsnapshot.cs
+++ConnectIndividualDemoContext.cs
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\models\connectindividualdemocontext.cs
+++NotificationHubConfiguration.cs
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\models\notificationhubconfiguration.cs
+++NotificationModel.cs
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\models\notificationmodel.cs
+++User.cs
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\models\user.cs
+++DeviceRegistration.cs
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\notificationhubs\deviceregistration.cs
+++HubResponse.cs
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\notificationhubs\hubresponse.cs
+++MobilePlatform.cs
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\notificationhubs\mobileplatform.cs
+++Notification.cs
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\notificationhubs\notification.cs
+++NotificationHubProxy.cs
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\notificationhubs\notificationhubproxy.cs
+++EncodedAndDecodedService.cs
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\services\encodedanddecodedservice.cs
+++appsettings.Development.json
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\appsettings.development.json
+++This dependency type is not supported for current profile.
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:>2048
+++Microsoft.AspNetCore.Analyzers
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\microsoft.netcore.app
+++Microsoft.Azure.NotificationHubs (4.1.0)
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:>2029
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.9)
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:>2024
+++Microsoft.EntityFrameworkCore.Tools (6.0.9)
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:>2027
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.9)
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:>2028
+++Newtonsoft.Json (13.0.1)
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:>2026
+++Swashbuckle.AspNetCore (6.2.3)
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:>2025
+++connect-individual - Web Deploy.pubxml
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\properties\publishprofiles\connect-individual - web deploy.pubxml
+++connect-individual - Web Deploy1.pubxml
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\properties\publishprofiles\connect-individual - web deploy1.pubxml
+++connect-individual - Web Deploy2.pubxml
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\properties\publishprofiles\connect-individual - web deploy2.pubxml
+++connect-individual - Web Deploy
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\properties\servicedependencies\connect-individual - web deploy\
+++connect-individual - Web Deploy1
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\properties\servicedependencies\connect-individual - web deploy1\
+++connect-individual - Web Deploy2
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\properties\servicedependencies\connect-individual - web deploy2\
+++serviceDependencies.connect-individual - Web Deploy.json
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\properties\servicedependencies.connect-individual - web deploy.json
+++20220922073248_initial.Designer.cs
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\migrations\20220922073248_initial.designer.cs
+++apis1.arm.json
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\properties\servicedependencies\connect-individual - web deploy\apis1.arm.json
+++profile.arm.json
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\properties\servicedependencies\connect-individual - web deploy\profile.arm.json
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\properties\servicedependencies\connect-individual - web deploy1\profile.arm.json
+i:{bd9c290a-8ff5-4c17-9bf5-0242aa257f6d}:c:\users\sus\poc\azure-demo\azuredemo\properties\servicedependencies\connect-individual - web deploy2\profile.arm.json
+++Images
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\assets\images\
+++NFPConnect_logo_white.png
+++NFPConnect_logo_wht_sm.png
+++logo.png
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\assets\images\logo.png
+++CI1.PNG
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\assets\images\ci1.png
+++CI2.PNG
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\assets\images\ci2.png
+++CI3.PNG
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\assets\images\ci3.png
+++CI4.PNG
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\assets\images\ci4.png
+++CI.PNG
+i:{cc7f7dcc-b99d-4af8-b47a-8f8c73f52782}:c:\users\sus\poc\azure-demo\connectindividualdemo\src\assets\images\ci.png

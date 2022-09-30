@@ -43,3 +43,40 @@
   padding: 12px;
   color: white;
 }
+.close-button {
+  color: #fff;
+  background: rgb(79, 146, 55);
+  border-radius: 5px;
+  width: 20%;
+  height: 48px;
+  border: 1px solid #C2C2C2 !important;
+  font-family: 'Open Sans' !important;
+}
+
+.notification-header {
+ font-size:x-large;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
