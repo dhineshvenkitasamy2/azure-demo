@@ -62,7 +62,7 @@ namespace AzureDemo.Controllers
                 var result = JsonConvert.DeserializeObject<User>(decodedResult);
                 if (result != null&&!String.IsNullOrEmpty(result.Name))
                 {
-                    return result;
+                    return result.Name;
                 }
                 else
                 {
@@ -76,6 +76,7 @@ namespace AzureDemo.Controllers
             }
 
         }
+
         [AllowAnonymous]
         [HttpGet("GetUser")]
         public IActionResult getUser([FromQuery] string userId)
