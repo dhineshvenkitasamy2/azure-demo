@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/bfd6ab1c-98c0-484f-97d6-3dd466f662b0/AppServices/subscriptions/bfd6ab1c-98c0-484f-97d6-3dd466f662b0/resourceGroups/DhineshRG/providers/Microsoft.Web/sites/NFPConnectAngular",
+    "appService.deploySubpath": "dist\\connect-individual-demo"
+}

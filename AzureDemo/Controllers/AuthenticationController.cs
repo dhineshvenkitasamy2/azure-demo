@@ -32,7 +32,7 @@ namespace AzureDemo.Controllers
             if ((!string.IsNullOrEmpty(user.EmailId)) && !string.IsNullOrEmpty(user.Password))
             {
                 var authenticatedUser = users.Find((user1 => user1.EmailId == user.EmailId && user1.Password == user.Password));
-                if (authenticatedUser!=null)
+                if (authenticatedUser != null)
                 {
                     var data = JsonConvert.SerializeObject(authenticatedUser);
 
@@ -52,28 +52,38 @@ namespace AzureDemo.Controllers
 
         [AllowAnonymous]
         [HttpGet("GetUserId")]
-        public dynamic getUserId([FromQuery] string id)
+        public IActionResult getUserId([FromQuery] string id)
         {
             var decodedResult = EncodedAndDecodedService.Base64Decode(id);
-
+            string userId = String.Empty;
 
             if (decodedResult != null)
             {
                 var result = JsonConvert.DeserializeObject<User>(decodedResult);
-                if (result != null&&!String.IsNullOrEmpty(result.Name))
-                {
-                    return result.Name;
-                }
-                else
-                {
-                    return "";
-                }
+                if (result != null && !String.IsNullOrEmpty(result.UserId))
+                    userId = result.UserId;
+            }
+            return Ok(userId);
 
+        }
+        [AllowAnonymous]
+        [HttpGet("GetUserIdJson")]
+        public IActionResult getUserIdJson([FromQuery] string id)
+        {
+            var decodedResult = EncodedAndDecodedService.Base64Decode(id);
+            User user = new User();
+            if (decodedResult != null)
+            {
+                user = JsonConvert.DeserializeObject<User>(decodedResult);
+                if (user != null)
+                    return Ok(user);
+                //userId = result;
             }
             else
             {
-                return "";
+                return NotFound();
             }
+            return Ok(user);
 
         }
 
@@ -84,7 +94,7 @@ namespace AzureDemo.Controllers
             User userModel = new User();
             List<User> users = new List<User>();
             users = userModel.AddUsers();
-            var authenticatedUser = users.Find((user1 => user1.UserId==userId));
+            var authenticatedUser = users.Find((user1 => user1.UserId == userId));
             return Ok(authenticatedUser);
         }
     }

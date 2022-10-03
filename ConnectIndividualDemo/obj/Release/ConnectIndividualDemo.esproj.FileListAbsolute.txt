@@ -1,0 +1,2 @@
+C:\Users\dvenkitasam2\POC\GIT\azure-demo\ConnectIndividualDemo\obj\Release\ConnectIndividualDemo.esproj.SuggestedBindingRedirects.cache
+C:\Users\dvenkitasam2\POC\GIT\azure-demo\ConnectIndividualDemo\obj\Release\ConnectIndividualDemo.esproj.CoreCompileInputs.cache

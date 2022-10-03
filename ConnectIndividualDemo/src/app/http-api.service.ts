@@ -9,7 +9,7 @@ export class HttpApiService {
   prodBaseUrl: string = "https://connect-individual.azurewebsites.net/";
   constructor(private httpClient: HttpClient) { }
   async onGetUser(id: string) {
-    return await this.httpClient.get(this.prodBaseUrl + "Authentication/GetUserId?id=" + id).toPromise()
+    return await this.httpClient.get(this.prodBaseUrl + "Authentication/GetUserIdJson?id=" + id).toPromise()
   }
   getUser(userId:string) {
     return this.httpClient.get(this.prodBaseUrl +"Authentication/GetUser?userId=" + userId)
